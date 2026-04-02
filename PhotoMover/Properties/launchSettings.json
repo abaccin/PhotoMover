@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "PhotoMover": {
+      "commandName": "Project"
+    },
+    "Organize Photos (Copy)": {
+      "commandName": "Project",
+      "commandLineArgs": "--src \"C:\\Users\\bacci_ao2c58i\\Downloads\\Immagini\" --dst \"C:\\Users\\bacci_ao2c58i\\Downloads\\Photos\" --mode copy --progress-every 500"
+    },
+    "Organize Photos (Dry Run)": {
+      "commandName": "Project",
+      "commandLineArgs": "--src \"C:\\Users\\bacci_ao2c58i\\Downloads\\Immagini\" --dst \"C:\\Users\\bacci_ao2c58i\\Downloads\\Photos\" --mode copy --progress-every 500 --dry-run"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
